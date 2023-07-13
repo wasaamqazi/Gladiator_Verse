@@ -1,5 +1,5 @@
 var Gladiator = artifacts.require("Gladiator");
-
+// Starts here
 contract("Gladiator", function (accounts) {
   it("Should assign the total supply of tokens to the owner", async function () {
     return Gladiator.deployed()
